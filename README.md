@@ -1,3 +1,6 @@
+# WARNING AI STUFF
+- I did use AI to make most of this. Even the readme...
+
 # Goremongers GORE TANK Tracker
 
 A digital tracker for the Goremongers tabletop game's GORE TANK mechanic. This web application helps you manage your operatives' gore tank levels during battles.
