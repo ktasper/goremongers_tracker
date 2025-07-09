@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goremongers GORE TANK Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Goremongers GORE TANK Tracker</h1>
+            <p class="subtitle">Track your operatives' gore tank levels during battle</p>
+        </header>
+
+        <div class="controls">
+            <button id="addOperative" class="btn btn-primary">Add Operative</button>
+            <button id="resetAll" class="btn btn-secondary">Reset All to Half</button>
+        </div>
+
+        <div id="operatives" class="operatives-grid">
+            <!-- Operatives will be added here dynamically -->
+        </div>
+
+        <div class="rules-panel">
+            <h3>GORE TANK Rules</h3>
+            <ul>
+                <li>All operatives start at <strong>HALF</strong> level</li>
+                <li><strong>Increase</strong> when incapacitating an operative within control range or visible within 2"</li>
+                <li><strong>Decrease</strong> when using a SANGUAVITAE rule</li>
+                <li>Tanks cannot increase when full or decrease when empty</li>
+            </ul>
+        </div>
+
+        <div class="reset-section">
+            <button id="resetToDefault" class="btn btn-danger">RESET TO DEFAULT</button>
+            <p class="reset-warning">This will remove all custom operatives and reset to the original 9 Goremongers</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
